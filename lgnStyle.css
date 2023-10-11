@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top right, lightblue, purple);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h3{
+    text-align: center;
+}
+input{
+    display: block;
+    width: 70%;
+    margin: 5px;
+    padding: 5px;
+}
