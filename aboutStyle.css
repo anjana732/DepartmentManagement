@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 40vh;
+   
+}
+.image{
+    width: 100%;
+    height: 100%;
+   
+}
+.header{
+    padding: 23px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card{
+    padding: 23px;
+    margin: 10px;
+    box-shadow: 5 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgb(206, 170, 182);
+    border-radius: 10px;
+}
+.parent-card{
+    display: flex;
+}
+.img2{
+    align-items: center;
+}
+/*.video-background {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Set your desired height 
+    overflow: hidden;
+}
+
+.video-background iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}*/

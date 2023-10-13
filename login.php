@@ -29,3 +29,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $con->close();
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="lgnStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+      
+        <div class="left">
+            <img class="loginimg" src="Assets/login.jpg" alt="loginimage">
+        </div>
+        
+            <div class="right">
+                <form action="login.php" method="post">
+                     <h3>Member Login</h3>
+                     <input type="email" name="email" id="email" placeholder="Username or password ">
+                    <input type="password" name="password" id="password" placeholder="password">
+                     <button class="btn" type="submit" name="submit" value="submit">Login</button>
+                 </form>
+            </div>
+        
+    </div>
+</body>
+</html>
